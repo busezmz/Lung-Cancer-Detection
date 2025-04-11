@@ -14,7 +14,7 @@ Bu proje kapsamında:
 
 ##  İçerik
 
-- `BuseAzmaz_SeniorProject-2.ipynb`: Projeye ait tüm analizleri içeren Jupyter Notebook dosyası.
+- `BuseAzmaz_190441046_SeniorProject-2.ipynb`: Projeye ait tüm analizleri içeren Jupyter Notebook dosyası.
 
 ##  Kullanılan Teknolojiler
 
