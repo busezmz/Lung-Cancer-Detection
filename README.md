@@ -1,25 +1,25 @@
-# Senior Project - Buse Azmaz
+# Lung Cancer Detection and Classification - Buse Azmaz
 
-Bu proje,benim tarafımda tarafından yürütülen bitirme projesidir. Jupyter Notebook formatında hazırlanmış olan bu çalışma, belirli bir veri seti üzerinde analizler ve modelleme işlemleri yaparak, makine öğrenmesi tekniklerinin uygulanmasını içermektedir.
+# Lung Cancer Detection
 
-##  Proje Özeti
+Lung Cancer Detection projesi, akciğer kanserini tespit etmek amacıyla makine öğrenimi tekniklerini kullanan bir uygulamadır. Bu proje, akciğer kanserinin erken evrelerde tespit edilmesine yardımcı olmak için tasarlanmış ve çeşitli görüntü işleme teknikleri ve sınıflandırıcılar kullanılmıştır.
 
-Bu proje kapsamında:
+##  Proje Amacı
+Akciğer kanseri, dünya çapında en yaygın kanser türlerinden biridir ve erken teşhis, hayatta kalma oranlarını önemli ölçüde artırabilir. Bu proje, göğüs röntgeni görüntülerini kullanarak kanserin varlığını tespit etmeyi amaçlar. Proje, derin öğrenme teknikleri kullanarak yüksek doğrulukla kanserin var olup olmadığını belirlemeye çalışır.
 
-- Verisetinin keşifsel veri analizi (EDA) yapılmıştır.
-- Veri temizleme ve ön işleme adımları gerçekleştirilmiştir.
-- Farklı makine öğrenmesi modelleri eğitilmiş ve değerlendirilmiştir.
-- Modellerin doğrulukları karşılaştırılarak en uygun model seçilmiştir.
-- Sonuçlar görselleştirme teknikleri ile desteklenmiştir.
+## 🔧 Kullanılan Teknolojiler ve Araçlar
+- **Python**: Projede kullanılan ana programlama dili.
+- **TensorFlow/Keras**: Derin öğrenme modelini eğitmek için kullanılan kütüphaneler.
+- **OpenCV**: Görüntü işleme ve analiz için kullanılan kütüphane.
+- **scikit-learn**: Model değerlendirme ve çeşitli makine öğrenimi algoritmaları için kullanıldı.
+- **Matplotlib/Seaborn**: Verilerin görselleştirilmesi için kullanıldı.
+- **Pandas/Numpy**: Veri işleme ve analiz için kullanıldı.
 
-##  İçerik
+##  Dosya Yapısı
+- **/notebooks**: Model eğitimi ve değerlendirmesini içeren Jupyter defterleri.
+- **README.md**: Proje hakkında bilgi veren bu dosya.
 
-- `BuseAzmaz_190441046_SeniorProject-2.ipynb`: Projeye ait tüm analizleri içeren Jupyter Notebook dosyası.
-
-##  Kullanılan Teknolojiler
-
-- Python
-- Jupyter Notebook
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
+##  Gereksinimler
+Projenin çalışabilmesi için aşağıdaki Python kütüphanelerinin yüklü olması gerekmektedir:
+```bash
+pip install -r requirements.txt
